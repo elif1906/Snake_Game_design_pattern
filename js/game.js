@@ -27,6 +27,7 @@ const snake = { // Snake settings
 const snakeSkins = [ // array snake skins
 	'./img/snake/head.svg',
 ];
+////Factory Pattern
 const snakeImages = [
     new Image(),
 ];
@@ -151,6 +152,7 @@ function gameLoop() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height); // очистка canvas
 	drawFood();
 	drawSnake();
+	//Strategy Pattern
 	if (diff === 'Hard') {
 		ctx.strokeStyle = '#f00';
 		ctx.lineWidth = 5;
@@ -328,7 +330,7 @@ function turnRight() {
 		snake.dirY = 0;
 	}
 }
-
+//Observer Pattern
 document.addEventListener('keydown', (e) => {
 	if ( e.keyCode == 87 || e.keyCode == 38 ) { // W (up) or arrow up
 		turnUp();

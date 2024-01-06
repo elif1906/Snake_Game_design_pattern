@@ -61,6 +61,8 @@ const audio = [ // array with audio
 	'./audio/dead.mp3',
 	'./audio/hit.mp3',
 ];
+
+//Singleton Pattern
 const audioNames = [
 	audioEat = new Audio(),
 	audioTurn = new Audio(),

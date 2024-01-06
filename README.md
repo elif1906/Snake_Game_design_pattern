@@ -9,4 +9,3 @@ A popular game snake, writen in javascript. Works both on PC and on touch screen
 - In hard mode, if you touch a bomb, your snake's length will be halved ( rounded up ).
 - There are skins for the snake.
 - Stores the best record in localStorage.
-- Set of music from google snake and minecraft.

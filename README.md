@@ -1,6 +1,6 @@
 # Snake Game
 
-A popular game snake, writen in javascript. Works both on PC and on touch screens (using swipes). With additional features.
+A popular game snake, writen in javascript. Works both on PC. With additional features.
 
 #### Additional features:
 - Random food ( banana, apple, carrot, eggplant ... ).

@@ -1,8 +1,15 @@
 # Snake Game
 
+#### Introduction:
+
+This project is an example of software development aiming to modernize the classic Snake game and enhance code quality using design patterns. 
+The game involves the basic Snake mechanics, where a simple snake eats food on the screen to grow in size. However, behind this simple game, there is a set of features designed and implemented in accordance with software engineering principles.
+![snake](main.png)
+
+
 A popular game snake, writen in javascript. Works both on PC. With additional features.
-- github link: https://github.com/elif1906/Snake_Game_design_pattern
 - project website link : https://snakeenac.netlify.app
+  
 #### Additional features:
 - Random food ( banana, apple, carrot, eggplant ... ).
 - 2 difficulty modes ( Easy and Hard ).
@@ -10,3 +17,6 @@ A popular game snake, writen in javascript. Works both on PC. With additional fe
 - In hard mode, if you touch a bomb, your snake's length will be halved ( rounded up ).
 - There are skins for the snake.
 - Stores the best record in localStorage.
+
+
+![snake](uml.png)

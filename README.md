@@ -6,10 +6,16 @@ This project is an example of software development aiming to modernize the class
 The game involves the basic Snake mechanics, where a simple snake eats food on the screen to grow in size. However, behind this simple game, there is a set of features designed and implemented in accordance with software engineering principles.
 ![snake](main.png)
 
-
 A popular game snake, writen in javascript. Works both on PC. With additional features.
 - project website link : https://snakeenac.netlify.app
-  
+
+
+#### Use Design patterns: 
+-Signleton Pattern
+-Factory Pattern
+-Observer Pattern
+-Strategy Pattern
+
 #### Additional features:
 - Random food ( banana, apple, carrot, eggplant ... ).
 - 2 difficulty modes ( Easy and Hard ).
